@@ -1,0 +1,391 @@
+/* Navbar Start */
+.main-navbar{
+    border-bottom: 1px solid #ccc;
+}
+.main-navbar .top-navbar {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+.main-navbar .top-navbar .brand-name {
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.main-navbar .top-navbar .nav-link{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-navbar .top-navbar .dropdown-menu{
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+.main-navbar .top-navbar .dropdown-menu .dropdown-item{
+    padding: 8px 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    font-size: 14px;
+}
+.main-navbar .top-navbar .dropdown-menu .dropdown-item i{
+    width: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+}
+.main-navbar .navbar{
+    padding: 0px;
+    background-color: #ffffff;
+}
+.main-navbar .navbar .nav-item .nav-link{
+    padding: 8px 20px;
+    color: #000;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-navbar .top-navbar .nav-link{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
+
+
+
+/* Slider Start*/
+.carousel-item .custom-carousel-content{
+    width: 50%;
+    transform: translate(0%, -10%);
+}
+.custom-carousel-content{
+    text-align: start;
+    padding-right:30px;
+    margin-top:60px;
+
+}
+.custom-carousel-content h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #000000;
+    margin-top:60px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+.custom-carousel-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.custom-carousel-content .btn-slider{
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 8px 20px;
+    color: #ffffff;
+    background-color: #000;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+/* Category Start */
+.category-card{
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+.category-card a{
+    text-decoration: none;
+}
+.category-card .category-card-img{
+    max-height: 260px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.category-card .category-card-body{
+    padding: 10px 16px;
+}
+.category-card .category-card-body h5{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing:1px;
+    color: #000;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Product Card */
+.product-card {
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product-card a{
+    text-decoration: none;
+}
+.product-card .stock{
+    position: absolute;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 12px;
+    margin: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-card .product-card-img {
+    max-height: 260px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card .product-card-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+}
+.product-card .product-card-body{
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin: 10px;
+
+}
+
+.product-card .product-card-body2{
+    padding: 10px;
+    background-color: #000000;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.product-card .product-card-body .product-brand{
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.product-card .product-card-body .product-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.product-card .product-card-body2 .selling-price{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 8px;
+    font-family: 'Playfair Display', serif;
+}
+.product-card .product-card-body2 .original-price{
+    font-size: 16px;
+    color: #f10707;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Playfair Display', serif;
+}
+.product-card .product-card-body .btn1{
+    border: 1px solid;
+    margin-right: 3px;
+    border-radius: 0px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Product Card */
+
+/* Product View*/
+.product-view .product-name{
+    font-size: 24px;
+    color: #2874f0;
+}
+.product-view .product-name .label-stock{
+    font-size: 13px;
+    padding: 4px 13px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    float: right;
+}
+.product-view .product-path{
+    font-size: 13px;
+    font-weight: 500;
+    color: #252525;
+    margin-bottom: 16px;
+}
+.product-view .selling-price{
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+    margin-right: 8px;
+}
+.product-view .original-price{
+    font-size: 18px;
+    color: #937979;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-view .btn1{
+    border: 1px solid;
+    margin-right: 3px;
+    border-radius: 0px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.product-view .btn1:hover{
+    background-color: #2874f0;
+    color: #fff;
+}
+.product-view .input-quantity{
+    border: 1px solid #000;
+    margin-right: 3px;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 58px;
+    outline: none;
+    text-align: center;
+}
+/*Product View */
+
+/* Cart or Wishlist */
+.shopping-cart .cart-header{
+    padding: 10px;
+}
+.shopping-cart .cart-header h4{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.shopping-cart .cart-item a{
+    text-decoration: none;
+}
+.shopping-cart .cart-item{
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.shopping-cart .cart-item .product-name{
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+.shopping-cart .cart-item .price{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 2px;
+}
+.shopping-cart .btn1{
+    border: 1px solid;
+    margin-right: 3px;
+    border-radius: 0px;
+    font-size: 10px;
+}
+.shopping-cart .btn1:hover{
+    background-color: #2874f0;
+    color: #fff;
+}
+.shopping-cart .input-quantity{
+    border: 1px solid #000;
+    margin-right: 3px;
+    font-size: 12px;
+    width: 40%;
+    outline: none;
+    text-align: center;
+}
+/* Cart or Wishlist */
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Checkout starts*/
+.checkout .form-control{
+    border-radius: 0px !important;
+}
+.checkout .form-control:focus{
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+}
+.checkout .nav-link{
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin-bottom: 8px;
+}
+.checkout .tab-content{
+    padding-right: 10px;
+}
+/* Checkout ends*/
+
+.footer-area{
+    padding: 40px 0px;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 24px;
+    color: #eeecec;
+    font-family: 'Playfair Display', serif;
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: #ddd;
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #262626;
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: #eeecec;;
+    font-family: 'Playfair Display', serif;
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: #eeecec;;
+    width: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
